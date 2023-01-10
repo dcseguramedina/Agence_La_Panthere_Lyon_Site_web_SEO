@@ -654,6 +654,10 @@ a {
     color: #575757!important;
 }
 
+.text-contrast {
+    color: #333333!important;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -750,6 +754,7 @@ h4 {
 }
 
 .white {
+    font-weight: 600;
     color: #FFFFFF!important;
 }
 
@@ -789,6 +794,7 @@ h4 {
 }
 
 .tc-white {
+    font-weight: 600;
     color: #F3976C!important;
 }
 
