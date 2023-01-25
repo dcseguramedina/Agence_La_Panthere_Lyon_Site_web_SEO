@@ -790,23 +790,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #A96642;
 }
 
 .tc-white {
     font-weight: 600;
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #A96642;
     font-weight: 800;
     font-size: 20px;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #9C6C4D!important;
     font-weight: 800;
     color: #FFFFFF!important;
 }
@@ -820,11 +820,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #A96642!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #9C6C4D!important;
 }
 
 .icon-dark-slate-blue {
@@ -896,8 +896,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -907,8 +907,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
